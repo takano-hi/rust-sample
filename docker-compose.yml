@@ -1,0 +1,7 @@
+version: "3"
+services:
+  guessing_game:
+    build: ./guessing_game
+    volumes:
+      - ./guessing_game:/app
+    command: sleep infinity
