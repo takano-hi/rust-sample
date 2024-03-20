@@ -5,3 +5,8 @@ services:
     volumes:
       - ./guessing_game:/app
     command: sleep infinity
+  variables:
+    build: ./variables
+    volumes:
+      - ./variables:/app
+    command: sleep infinity
