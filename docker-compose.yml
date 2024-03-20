@@ -10,3 +10,8 @@ services:
     volumes:
       - ./variables:/app
     command: sleep infinity
+  functions:
+    build: ./functions
+    volumes:
+      - ./functions:/app
+    command: sleep infinity
