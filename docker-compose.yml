@@ -15,3 +15,8 @@ services:
     volumes:
       - ./functions:/app
     command: sleep infinity
+  ownerships:
+    build: ./ownerships
+    volumes:
+      - ./ownerships:/app
+    command: sleep infinity
