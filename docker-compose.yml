@@ -20,3 +20,8 @@ services:
     volumes:
       - ./ownerships:/app
     command: sleep infinity
+  slices:
+    build: ./slices
+    volumes:
+      - ./slices:/app
+    command: sleep infinity
