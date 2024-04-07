@@ -25,3 +25,8 @@ services:
     volumes:
       - ./slices:/app
     command: sleep infinity
+  structs:
+    build: ./structs
+    volumes:
+      - ./structs:/app
+    command: sleep infinity
